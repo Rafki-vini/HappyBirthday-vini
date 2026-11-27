@@ -2886,3 +2886,12 @@ display: none;
     padding: 12px 9px 10px;
   }
 }
+/* POSISI MASKOT LANDAK HALAMAN 3 */
+.chat-memories-slide .page-mascot {
+  bottom: 20px !important;
+}
+@media (max-width: 650px) {
+  .chat-memories-slide .page-mascot {
+    bottom: 65px !important;
+  }
+}
