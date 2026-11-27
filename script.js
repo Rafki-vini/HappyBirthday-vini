@@ -321,7 +321,7 @@ giftPromptModal.addEventListener("click", (event) => { if (event.target === gift
 acceptGift.addEventListener("click", () => {
   acceptGiftClicks += 1;
   if (acceptGiftClicks < 3) {
-    const shifts = [{x: 200, y: -100}, {x: -150, y: 100}];
+    const shifts = [{x: 200, y: -100}, {x: 50, y: 150}];
     const shift = shifts[acceptGiftClicks - 1];
     acceptGift.style.transform = `translate(${shift.x}px, ${shift.y}px)`;
     acceptGift.textContent = acceptGiftClicks === 1 ? "wlee, coba lagi ♡" : "upss, coba lagi deh ♡";
