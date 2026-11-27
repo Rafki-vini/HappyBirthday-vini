@@ -2009,7 +2009,7 @@ body { background: #fbe5ec; }
 @media (max-width: 650px) {
   .letter-slide .page-mascot {
     position: absolute !important;
-    top: 90% !important;
+    top: 80% !important;
     bottom: auto !important;
     right: 5px !important;
     left: auto !important;
