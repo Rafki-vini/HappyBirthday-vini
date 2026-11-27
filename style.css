@@ -2625,3 +2625,9 @@ display: none;
     line-height: 1.8;
   }
 }
+/* HILANGKAN TITIK NAVIGASI DI HP */
+@media (max-width: 650px) {
+  .dots {
+    display: none !important;
+  }
+}
