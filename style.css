@@ -491,7 +491,7 @@ h2 {
   bottom: 17px;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
+  display: none;
   gap: 9px;
   padding: 9px 13px;
   border-radius: 30px;
