@@ -360,11 +360,11 @@ async function saveConfessionAnswer(answer) {
 
 confessionYes.addEventListener("click", () => {
   saveConfessionAnswer("Iya, aku mau!");
-  finishConfession("Makasih sudah menerima perasaanku. Aku harap kita bisa saling menjaga dan mengenal lebih baik. ♡");
+  finishConfession("Yeayyyyyyy ,asikkkk terimakasih cantik sekarang kita resmi pacaran ya sayang. ♡");
 });
 confessionLater.addEventListener("click", () => {
   saveConfessionAnswer("Aku mau pikir dulu");
-  finishConfession("Nggak apa-apa, kamu boleh mengambil waktu untuk memikirkannya. Terima kasih sudah jujur. ♡");
+  finishConfession("Nggak apa-apa, kamu boleh mengambil waktu untuk memikirkannya. Terima kasih sudah menjawab dengan jujur cantik. ♡");
 });
 confessionNext.addEventListener("click", () => { hideModal(confessionModal); document.getElementById("slide-wish").checked = true; });
 closeConfession.addEventListener("click", () => hideModal(confessionModal));
